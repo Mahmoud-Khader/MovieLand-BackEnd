@@ -7,7 +7,7 @@ const express = require('express');
 const cors = require('cors');
 
 const mongoose = require('mongoose');
-mongoose.connect(mongodb+srv://mahmoud:mahmoud@cluster0.gt8fb.mongodb.net/test, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongodb+srv://mahmoud:mahmoud123456789@cluster0.gt8fb.mongodb.net/?retryWrites=true&w=majority, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const app = express();
 
