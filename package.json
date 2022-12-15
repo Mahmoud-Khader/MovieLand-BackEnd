@@ -2,7 +2,7 @@
   "name": "Movie-Land-BackEnd",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.js","type":"module",
   "engines":{
     "node": "14.x"
   },
